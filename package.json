@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@types/node": "^8.0.28",
+    "codecov": "^2.3.0",
     "css-loader": "^0.26.1",
     "extract-text-webpack-plugin": "^2.0.0-rc.3",
     "html-webpack-plugin": "^2.26.0",
