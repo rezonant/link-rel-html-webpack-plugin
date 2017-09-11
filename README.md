@@ -28,7 +28,13 @@ Basic Usage
 Load the plugin
 
 ```js
-const LinkRelHtmlWebpackPlugin = require('link-rel-html-webpack-plugin');
+const { LinkRelHtmlWebpackPlugin } = require('link-rel-html-webpack-plugin');
+```
+
+When using Node 4.x or 5.x you don't have deconstruction assignment, instead use: 
+
+```js
+const LinkRelHtmlWebpackPlugin = require('link-rel-html-webpack-plugin').LinkRelHtmlWebpackPlugin;
 ```
 
 and add it to your webpack config as follows:
