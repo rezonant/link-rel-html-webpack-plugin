@@ -1,0 +1,53 @@
+{
+  "name": "link-rel-html-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Allows modification of the 'rel' attribute of CSS assets compiled via Webpack.",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rezonant/link-rel-html-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html-webpack-plugin",
+    "css",
+    "rel"
+  ],
+  "author": "William Lahti <wilahti@gmail.com> (http://github.com/rezonant)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rezonant/link-rel-html-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/rezonant/link-rel-html-webpack-plugin",
+  "engines": {
+    "node": ">= 4"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.28",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "html-webpack-plugin": "^2.26.0",
+    "jest-cli": "^19.0.1",
+    "memory-fs": "^0.4.1",
+    "style-loader": "^0.13.1",
+    "typescript": "^2.5.2",
+    "webpack": "^2.2.0"
+  },
+  "dependencies": {
+    "object-assign": "^4.1.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "node_modules",
+      "fixtures"
+    ]
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run test",
+    "test": "npm run build && jest",
+    "coverage": "npm run build && jest --coverage"
+  }
+}
