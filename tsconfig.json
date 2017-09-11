@@ -5,7 +5,8 @@
             "./node_modules/@types"
         ],
         "target": "es5",
-        "declaration": true
+        "declaration": true,
+        "sourceMap": true
     },
     "files": [
         "index.ts"
