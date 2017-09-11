@@ -2,8 +2,8 @@
   "name": "link-rel-html-webpack-plugin",
   "version": "1.0.2",
   "description": "Allows modification of the 'rel' attribute of CSS assets compiled via Webpack.",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "./index.js",
+  "types": "./index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/rezonant/link-rel-html-webpack-plugin.git"

@@ -18,7 +18,6 @@ const inferMediaFromCSSFilename = (filename) => {
     return false;
 };
 
-export interface Foo { }
 export interface LinkRelHTMLWebpackPluginOptionFile {
     /**
      * The file to match. Can be a literal string or (more likely) a regular expression.
