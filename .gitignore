@@ -5,3 +5,4 @@ npm-debug.log
 *.js
 *.d.ts
 !__tests__/*.js
+*.map
