@@ -4,3 +4,4 @@ npm-debug.log
 /coverage
 *.js
 *.d.ts
+!__tests__/*.js
