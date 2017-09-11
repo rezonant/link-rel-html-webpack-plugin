@@ -4,7 +4,7 @@ const MemoryFileSystem = require('memory-fs');
 const webpack = require('webpack');
 const ExtractPlugin = require('extract-text-webpack-plugin');
 const HTMLPlugin = require('html-webpack-plugin');
-const { LinkRelHTMLWebpackPlugin } = require('../');
+const LinkRelHTMLWebpackPlugin = require('../').LinkRelHTMLWebpackPlugin;
 
 const FIXTURE_DIR = path.join(__dirname, 'fixtures');
 const OUTPUT_DIR = path.join(__dirname, '../dist');
