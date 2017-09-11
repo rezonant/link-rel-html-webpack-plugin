@@ -1,6 +1,6 @@
 {
   "name": "link-rel-html-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows modification of the 'rel' attribute of CSS assets compiled via Webpack.",
   "main": "index.js",
   "typings": "index.d.ts",
