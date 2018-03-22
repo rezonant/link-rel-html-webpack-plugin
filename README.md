@@ -34,7 +34,7 @@ const { LinkRelHTMLWebpackPlugin } = require('link-rel-html-webpack-plugin');
 When using Node 4.x or 5.x you don't have deconstruction assignment, instead use: 
 
 ```js
-const LinkRelHtmlWebpackPlugin = require('link-rel-html-webpack-plugin').LinkRelHTMLWebpackPlugin;
+const LinkRelHTMLWebpackPlugin = require('link-rel-html-webpack-plugin').LinkRelHTMLWebpackPlugin;
 ```
 
 and add it to your webpack config as follows:
@@ -43,7 +43,7 @@ and add it to your webpack config as follows:
 plugins: [
     // ...
     new HtmlWebpackPlugin(),
-    new LinkRelHtmlWebpackPlugin({
+    new LinkRelHTMLWebpackPlugin({
         files: [
             { file: /theme-default/, title: 'Default Theme' },
             { file: /theme-dark/, rel: 'alternate stylesheet', title:  => 'Dark Theme' }
